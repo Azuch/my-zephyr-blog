@@ -1,3 +1,7 @@
+---
+layout: post
+title: "Chuyến Phiêu Lưu vào Lãnh địa Thời gian: Tự Tay Chế Driver DHT11"
+---
 # Chuyến Phiêu Lưu vào Lãnh địa Thời gian: Tự Tay Chế Driver DHT11 và (Hy vọng) không làm nổ gì cả
 
 Vậy là bạn đã có trong tay một con ESP32, một môi trường Zephyr RTOS mới coóng và một túi cảm biến DHT11 "ngon, bổ, rẻ" mua từ cửa hàng điện tử gần nhà. Bạn đã làm chủ được `printk`, đã nháy được vài con LED. Giờ là lúc cho một thử thách thực sự.

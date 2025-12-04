@@ -1,3 +1,7 @@
+---
+layout: post
+title: "Xe độ vs. Xe đua F1: 3 Bài học 'đắt giá' từ Driver DHT chính thức của Zephyr"
+---
 # Xe độ vs. Xe đua F1: 3 Bài học "đắt giá" từ Driver DHT chính thức của Zephyr
 
 Ở bài trước, chúng ta đã thành công trong việc "chế" một driver cho DHT11. Nó chạy, nó đọc được nhiệt độ, độ ẩm, và chúng ta đã ăn mừng với meme "It's alive!".

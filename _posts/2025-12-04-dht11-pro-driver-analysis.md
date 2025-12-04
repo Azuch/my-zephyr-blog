@@ -42,7 +42,7 @@ uint32_t pulse_len_us = k_cyc_to_us_floor32(total_cycles);
 
 Đây là cách dùng "đồng hồ Rolex" của chính CPU để đo thời gian. Nó chính xác hơn rất nhiều và không bị ảnh hưởng bởi các yếu tố bên ngoài.
 
-**[Ảnh meme 'Expanding Brain' ở đây, với các cấp độ: `k_sleep()` -> `k_busy_wait()` -> `k_cycle_get_32()`]**
+[!Mind_blow](https://i.pinimg.com/originals/1a/c6/70/1ac6702bbd0296122a33da8751523125.gif){: .mx-auto.d-block :}
 
 *   **Bài học:** Để có sự chính xác trong timing, hãy dùng các công cụ đo đếm của phần cứng mà kernel cung cấp.
 
@@ -52,8 +52,7 @@ Cách chúng ta giải mã bit là dùng một ngưỡng cố định:
 `if (pulse_len_us > 40) { bit = 1; }`
 
 Cách này rất cứng nhắc. Nếu cảm biến hơi "chậm" hoặc "nhanh" một chút, driver của chúng ta sẽ giải mã sai.
-
-**[Ảnh meme "Is this a pigeon?" ở đây: Driver của chúng ta nhìn vào một xung 38µs và hỏi "Is this a bit 0?"]**
+[!IsThisAPigeon](https://ichef.bbci.co.uk/ace/standard/976/cpsprodpb/65A1/production/_101571062_pigeon.jpg){: .mx-auto.d-block :}
 
 **Cách của 'hãng' (cực kỳ thông minh):**
 1.  Họ không giải mã ngay. Họ đo và lưu lại độ dài của **cả 40 xung CAO** vào một mảng.
@@ -81,8 +80,6 @@ Cùng một file `dht.c`, họ hỗ trợ cả hai loại. Họ làm điều đ�
         // Dùng công thức đơn giản cho DHT11
     }
     ```
-
-**[Ảnh meme "One Ring to rule them all" ở đây, với chiếc nhẫn được đề chữ "dht.c"]**
 
 *   **Bài học:** Hãy thiết kế driver của bạn sao cho linh hoạt và có thể tái sử dụng cho các phần cứng tương tự. Sử dụng Device Tree để truyền các thông tin cấu hình đó vào driver.
 

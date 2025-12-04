@@ -8,6 +8,6 @@ Xin chào, tôi là **Azuch**.
 
 Chào mừng đến với blog của tôi! Đây là nơi tôi ghi lại hành trình khám phá thế giới hệ thống nhúng, đặc biệt là với Zephyr RTOS, cùng với những chia sẻ khác về công nghệ và lập trình.
 
-Bạn có thể tìm thấy tôi trên [GitHub](https://github.com/Azuch).
+Bạn có thể tìm thấy tôi trên [GitHub](https://github.com/Azuch) hoặc liên hệ qua email: **namlucius@gmail.com**.
 
 Cảm ơn đã ghé thăm!

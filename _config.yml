@@ -5,7 +5,7 @@ description: "Azuch's Blog"
 
 # beautiful-jekyll specific settings
 # We can add more options later from the theme's documentation
-# avatar: /assets/img/avatar-icon.png
+avatar: /assets/img/azuch.png
 navbar-links:
   About: /about/
 

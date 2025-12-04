@@ -1,14 +1,13 @@
 ---
 layout: post
-title: "Chuyến Phiêu Lưu vào Lãnh địa Thời gian: Tự Tay Chế Driver DHT11"
+title: "Chuyến Phiêu Lưu vào Lãnh địa Thời gian: Tự Tay Chế Driver DHT11 và (Hy vọng) không làm nổ gì cả"
 ---
-# Chuyến Phiêu Lưu vào Lãnh địa Thời gian: Tự Tay Chế Driver DHT11 và (Hy vọng) không làm nổ gì cả
 
 Vậy là bạn đã có trong tay một con ESP32, một môi trường Zephyr RTOS mới coóng và một túi cảm biến DHT11 "ngon, bổ, rẻ" mua từ cửa hàng điện tử gần nhà. Bạn đã làm chủ được `printk`, đã nháy được vài con LED. Giờ là lúc cho một thử thách thực sự.
 
 "Viết driver cho cái của nợ này thì có gì khó?" - bạn tự nhủ. Sau tất cả, nó chỉ là một con cảm biến thôi mà.
 
-![Hold my beer](https://i.kym-cdn.com/photos/images/newsfeed/001/088/637/e11.png)
+![Hold my beer](https://media.makeameme.org/created/hold-my-beer-13f6a2ccc9.jpg)
 
 Và đó là lúc cuộc phiêu lưu của chúng ta bắt đầu.
 
@@ -16,7 +15,7 @@ Và đó là lúc cuộc phiêu lưu của chúng ta bắt đầu.
 
 Việc đầu tiên của mọi kỹ sư là tìm datasheet. Và bạn nhận ra ngay vấn đề đầu tiên: con chip này không nói thứ tiếng I2C hay SPI thân thuộc. Nó nói một thứ ngôn ngữ riêng, một giao thức 1-dây tùy chỉnh, và "từ vựng" của nó được đo bằng micro-giây.
 
-![It's some form of elvish](https://i.imgflip.com/1l6o4x.jpg)
+![It's some form of elvish](https://pm1.aminoapps.com/6354/5570036312910b6af487719fec9f91b91009c63b_hq.jpg)
 
 Sau một hồi "thiền" với tài liệu, chúng ta rút ra được "vũ đạo" mà chúng ta phải thực hiện. Datasheet nói:
 
@@ -157,7 +156,7 @@ if (checksum != raw_buffer[4]) {
 
 Sau vài lần loay hoay với timeout và ngưỡng thời gian, cuối cùng chúng ta cũng đọc được một giá trị hợp lệ! Checksum khớp! Độ ẩm 60%, Nhiệt độ 25°C! Cảm giác thật tuyệt vời.
 
-![It's alive](https://media.tenor.com/T0p8n5v5j9EAAAAC/alive-itsalive.gif)
+![It's alive](https://media.tenor.com/V5FNCh31UH4AAAAM/frankenstein-its-alive.gif)
 
 Chúng ta đã tạo ra một driver hoạt động được từ con số không, chỉ bằng datasheet và các hàm API cơ bản của Zephyr. Nó có thể không hoàn hảo, không tối ưu, nhưng nó là *của chúng ta*.
 

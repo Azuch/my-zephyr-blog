@@ -13,7 +13,7 @@ Ngồi thẳng lưng lên, pha một ly cà phê, và chuẩn bị tinh thần �
 
 Mọi chuyện bắt đầu khi chú em kia vứt vào mặt tôi một đoạn code `main.c` và hồn nhiên hỏi: "Đại ca, sao nó không chạy?". Tôi liếc qua, và suýt nữa thì cái kính lão của tôi đã rớt xuống đất. Đây không phải là code, đây là một sự sỉ nhục đối với nghề lập trình!
 
-(https://i.pinimg.com/originals/bd/d6/9e/bdd69eec112566bf55d57821e49492b7.gif){: .mx-auto.d-block :}
+![TheHell](https://i.pinimg.com/originals/bd/d6/9e/bdd69eec112566bf55d57821e49492b7.gif){: .mx-auto.d-block :}
 
 ```c
 // Phiên bản "thảm họa" ban đầu
@@ -72,7 +72,7 @@ Một câu hỏi cực kỳ sắc sảo! Nhưng lại sai về bản chất.
 
 > **Đại ca đáp:** "Chú em nghĩ `K_FOREVER` là 'chiếm CPU và chờ' à? Sai! Nó có nghĩa là 'Nói với hệ điều hành: cho tôi đi ngủ, khi nào có thư thì gọi dậy'. Thread sẽ vào trạng thái 'ngủ' và tiêu thụ **0% CPU**. Đây chính là sự kỳ diệu của RTOS!"
 
-(https://i.makeagif.com/media/10-28-2016/6xwwLc.gif){: .mx-auto.d-block :}
+![ExpandBrain](https://i.makeagif.com/media/10-28-2016/6xwwLc.gif){: .mx-auto.d-block :}
 
 #### **Hiệp 2: `double` - Dùng Vây Cá Mập Nấu Canh Rau**
 
@@ -90,7 +90,7 @@ Một câu hỏi cực kỳ sắc sảo! Nhưng lại sai về bản chất.
 
 Sau rất nhiều lần "đập đi xây lại", đây là "kiệt tác" cuối cùng. Nó không chỉ chạy, mà còn chạy một cách hiệu quả, an toàn và đúng với triết lý của RTOS.
 
-(https://media.tenor.com/LLLJYVQJNVAAAAAM/chefs-kiss-french-chef.gif){: .mx-auto.d-block :}
+![LifeGood](https://media.tenor.com/LLLJYVQJNVAAAAAM/chefs-kiss-french-chef.gif){: .mx-auto.d-block :}
 
 ```c
 #include <zephyr/kernel.h>

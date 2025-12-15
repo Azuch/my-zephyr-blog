@@ -19,7 +19,7 @@ Mọi chuyện bắt đầu khi sếp yêu cầu tôi xem xét file `http_get.c`
 
 > **Sếp:** ok, let look at the http_get.c; explain this and show me if this is efficient
 
-#### `src/http_client.h`
+#### `src/http_get.c`
 ```c
 /* 
  * Copyright (c) 2023 Craig Peacock.

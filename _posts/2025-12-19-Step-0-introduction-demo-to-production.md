@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "From Demo to Production Firmware – Step 0: Why This Series Exists"
-date: 2025-01-01
+date: 2025-12-19
 categories: [embedded, zephyr, firmware, architecture]
 ---
 

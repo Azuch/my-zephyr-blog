@@ -1,7 +1,7 @@
 ---
 layout: post 
 title: "From Demo to Production Firmware – Step 1: Thinking Like a Device, Not a Script" 
-date: 2025-01-02 
+date: 2025-12-20
 categories: [embedded, zephyr, firmware, architecture]
 ---
 > **Step 1 is about mindset, not code.**

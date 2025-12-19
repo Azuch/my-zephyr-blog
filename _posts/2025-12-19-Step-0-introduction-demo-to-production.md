@@ -1,10 +1,9 @@
 ---
-
 layout: post
 title: "From Demo to Production Firmware – Step 0: Why This Series Exists"
 date: 2025-01-01
 categories: [embedded, zephyr, firmware, architecture]
-------------------------------------------------------
+---
 
 > **This is Step 0 of a long-form series about building production-grade firmware with Zephyr.**
 > Step 0 exists to align expectations, mindset, and goals *before* we write a single line of code.

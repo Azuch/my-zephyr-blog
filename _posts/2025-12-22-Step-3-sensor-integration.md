@@ -2,7 +2,7 @@
 
 layout: post
 title: "From Demo to Production Firmware – Step 3: Sensor Integration Without Breaking Architecture"
-date: 2025-01-04
+date: 2025-12-22
 categories: [embedded, zephyr, firmware, architecture]
 ---
 

@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "From Demo to Production Firmware – Step 11: Future Features and Optional Evolutions"
+title: "From Demo to Production Firmware – Step 11: Future Features and Optional (Or not to) Evolutions"
 date: 2025-12-30
 categories: [embedded, zephyr, firmware, architecture]
 ---
